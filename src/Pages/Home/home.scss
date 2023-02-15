@@ -1,0 +1,16 @@
+.homeContainer {
+  background-color: #9b4242;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .chat-box {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 65%;
+    height: 80%;
+    display: flex;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+}
